@@ -1,0 +1,5 @@
+/.cache-loader
+/.env.json
+/deploy
+/node_modules
+/stats.*.json
