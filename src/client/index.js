@@ -1,20 +1,9 @@
+import App from './App'
 import React from 'react'
 import ReactDOM from 'react-dom'
+import logBuildInfo from './logBuildInfo'
 
-import App from './App'
-
-const {
-  commithash,
-  dirty,
-  time
-} = memodiary.build
-
-console.log(
-  'Version %s built %s',
-  commithash +
-  (dirty ? '+' : ''),
-  Date(time).toString()
-)
+logBuildInfo()
 
 const app = document.createElement('div')
 document.body.appendChild(app);

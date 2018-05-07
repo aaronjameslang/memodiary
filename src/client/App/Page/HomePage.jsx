@@ -8,16 +8,16 @@ export default withStyles({
   }
 })(() => (
   <div>
-    <Button variant="raised" >
+    <Button variant='raised' >
       Medical
     </Button>
-    <Button variant="raised" >
+    <Button variant='raised' >
       Contacts
     </Button>
-    <Button variant="raised" >
+    <Button variant='raised' >
       Updates
     </Button>
-    <Button variant="raised" >
+    <Button variant='raised' >
       Calendar
     </Button>
   </div>

@@ -19,9 +19,9 @@ export default withStyles({
   <AppBar className={classes.flat} position='static'>
     <Toolbar className={classes.row} >
       <MenuIcon />
-        <Typography variant='title' color='inherit'>
+      <Typography variant='title' color='inherit'>
         MemoDiary
-        </Typography>
+      </Typography>
       <IconButton>
         <AccountCircle />
       </IconButton>
