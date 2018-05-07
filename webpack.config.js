@@ -64,9 +64,9 @@ const clientConfig = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'MemoDiary',
-      filename: 'index.html',
-      inlineSource: '.'
+      inlineSource: '.',
+      meta: {viewport: 'width=device-width, initial-scale=1'},
+      title: 'MemoDiary'
     }),
     new HtmlWebpackInlineSourcePlugin()
   ].concat(commonPlugins),
