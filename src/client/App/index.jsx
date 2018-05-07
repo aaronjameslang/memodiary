@@ -16,11 +16,9 @@ export default withStyles({
 })(({classes}) => (
   <div className={'app ' + classes.app}>
     <CssBaseline />
+    <Header />
     <HashRouter>
-      <MuiThemeProvider>
-        <Header />
         <Page />
-      </MuiThemeProvider>
     </HashRouter>
   </div>
 ))
