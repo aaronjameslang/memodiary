@@ -1,11 +1,11 @@
 language: node_js
 node_js: node
 deploy:
-- provider: script
-  skip_cleanup: true
-  script: rm .env && ./node_modules/.bin/db-migrate up
-  on:
-    branch: master
+#- provider: script
+#  skip_cleanup: true
+#  script: rm .env && ./node_modules/.bin/db-migrate up
+#  on:
+#    branch: master
 - provider: lambda
   region: eu-west-2
   function_name: memodiary
