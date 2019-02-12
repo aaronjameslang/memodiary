@@ -18,7 +18,7 @@ export default withStyles({
     <CssBaseline />
     <Header />
     <HashRouter>
-        <Page />
+      <Page />
     </HashRouter>
   </div>
 ))
