@@ -40,7 +40,7 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "cache-loader": "^1.2.0",
-    "css-loader": "^0.28.11",
+    "css-loader": "^1.0.0",
     "csv": "^3.0.2",
     "date-fns": "^1.29.0",
     "db-migrate": "^0.10.7",
